@@ -1,12 +1,12 @@
 package main
 
 import (
-	"os"
-	"io"
-	"log"
+	"encoding/json"
 	"flag"
 	"fmt"
-	"encoding/json"
+	"io"
+	"log"
+	"os"
 )
 
 const usage = `usage: prettyjson [-i indent] file
